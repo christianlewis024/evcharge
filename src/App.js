@@ -56,6 +56,7 @@ export default function App() {
           setViewport(viewport);
         }}
         mapboxApiAccessToken={process.env.REACT_APP_MAPBOX_TOKEN}
+        mapStyle="mapbox://styles/christianlewis/ckdg36i5j11x41iqr21ihmff5"
       >
         {evcDate.features.map((station) => (
           <Marker
